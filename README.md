@@ -1,5 +1,5 @@
-# Bottom Sheet
-Bottom sheet, implemented in pure HTML, CSS, and JavaScript
+# Bottom Sheet Web Component
+Bottom sheet, implemented in pure HTML, CSS, JavaScript and the WebComponents API.
 
 ## Features
 - There is a draggable area to resize the sheet
