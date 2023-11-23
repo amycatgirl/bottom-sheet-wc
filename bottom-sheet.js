@@ -89,8 +89,6 @@ class BottomSheet extends HTMLElement {
             const shadowRoot = this.shadowRoot;
             const sheet = shadowRoot.getElementById("sheet");
 
-            console.log(!Boolean(this.getAttribute("shown")));
-
             sheet.setAttribute("aria-hidden", newVal === "true" ? "false" : "true");
             
             
@@ -112,6 +110,7 @@ class BottomSheet extends HTMLElement {
 
     setIsSheetShown(isShown) {
         this.setAttribute("shown", String(!isShown))
+        if (!isSHown)
     }
 
 }
