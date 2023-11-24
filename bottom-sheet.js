@@ -110,7 +110,6 @@ class BottomSheet extends HTMLElement {
 
     setIsSheetShown(isShown) {
         this.setAttribute("shown", String(!isShown))
-        if (!isSHown)
     }
 
 }
